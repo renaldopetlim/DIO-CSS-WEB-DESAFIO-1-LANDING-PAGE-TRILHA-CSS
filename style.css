@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+    :root{
+        --font-white: #FFFFFF;
+        --font-blue: #33A8FB;
+        --font-blue-gradient: #1472B7;
+        --background-button: #252525;
+        --color-border: #33A8DB;
+    }
+
+/* -------------------- SECTION -------------------- */
+#section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 50vh;
+    padding: 0 28vh 0 28vh;
+}
+    #section h2{
+        color: var(--font-blue);
+        font-size: 32px;
+        letter-spacing: 8px;
+    }
+    #section p{
+        color: var(--font-white);
+        font-size: 16px;
+        text-align: center;
+    }
+    #section h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--font-white);
+        font-size: 16px;
+        font-weight: 400;
+        background-color: var(--background-button);
+        width: 38vw;
+        height: 6vh;
+        border-radius: 50px;
+        border: 1px solid var(--color-border);
+    }
+        #section h4 p{
+            color: var(--font-blue);
+            background-color: transparent;
+            padding: 0 4px 0 0;
+        }
