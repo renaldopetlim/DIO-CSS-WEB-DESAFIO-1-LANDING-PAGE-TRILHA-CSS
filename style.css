@@ -65,7 +65,7 @@
     align-items: center;
     gap: 20px;
     height: 80vh;
-    padding: 0 30vh 0 30vh;
+    padding: 0 24vh 0 24vh;
 }
     #article h2{
         color: var(--font-blue);
